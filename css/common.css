@@ -1,0 +1,91 @@
+/* Главный шрифт документа */
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+a {
+    text-decoration: none;
+  }
+ul {
+    list-style: none;
+}
+/* активная ссылка  */
+a.current, .nav-link:active {
+    color: var(--blue-text);
+}
+
+
+/* Стиль лого сайта */
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--black-text-logo);
+}
+
+.nav-logo .colortext {
+    color: var(--blue-text)
+}
+/* Стили шапки */
+.nav-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--black-text);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--blue-text);
+}
+
+.nav-contact .nav-link {
+    color: var(--grey-text);
+}
+
+
+.nav-contact .nav-link:hover, .nav-contact .nav-link:focus {
+    color: var(--blue-text);
+}
+
+
+/* Стили Футера */
+.footer {
+    background-color: var(--black-background);
+}
+.address-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+}
+
+.colortext {
+    color: var(--blue-text)
+}
+.address-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+}
+.address-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text-op60);
+}
+
