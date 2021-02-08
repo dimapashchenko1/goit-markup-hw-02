@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-Домашнее задание 01
+# goit-markup-hw-02
+Домашнее задание 02
+https://dimapashchenko1.github.io/goit-markup-hw-02/
